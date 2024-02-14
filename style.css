@@ -1,5 +1,6 @@
 body {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -28,8 +29,8 @@ body {
 
 #yesButton {
     position: absolute;
-    margin-right: 150px;
-    /* Smooth movement */
+    top: 1300px;
+    left: 200px;
 }
 
 .header_text {
@@ -45,7 +46,6 @@ body {
 .buttons {
     width: 900px;
     display: flex;
-    gap: 200px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -85,9 +85,4 @@ body {
 img {
     width: 400px;
     /*height: ;*/
-}
-
-#yesButton {
-    position: absolute;
-    right: 850px;
 }
